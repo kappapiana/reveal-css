@@ -340,13 +340,19 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   border: 0px;
   position: relative; }
 
+.reveal .left-img {
+  float: left;
+  max-width: 40%;
+  max-height: 80%;
+  min-height: 70%;
+  clear: both; }
+
 .reveal .right-img {
   float: right;
   max-width: 40%;
   max-height: 80%;
   min-height: 70%;
-  clear: both;
-  border: blue; }
+  clear: both; }
 
 .reveal .normativa {
   font-size: 0.65em;
