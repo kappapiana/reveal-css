@@ -338,6 +338,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   border: 0px;
   position: relative; }
 
+.reveal .center-img .small {
+  max-width: 30%;
+  max-height: 30%; }
+
 .reveal .left-img {
   float: left; }
 
