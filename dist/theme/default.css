@@ -304,6 +304,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal strong {
   color: #da2233; }
 
+.reveal .smallish {
+  font-size: 0.8em; }
+
 .slide-background {
   background-size: 12.5%,auto;
   background-repeat: no-repeat;
@@ -405,9 +408,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .fa-gray, .fa-grey {
   color: #CCC; }
 
-.fa-strong {
+.fa-strong, .fa-bold {
   color: #da2233;
   font-weight: bold; }
+
+.fa-tone, .fa-accent {
+  color: #da2233; }
 
 .reveal .slides section .fragment.highlight-bold {
   opacity: 1;
@@ -436,6 +442,17 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-family: unset;
   font-style: unset;
   color: #da2233; }
+
+.left, .right {
+  width: 50%;
+  position: fixed;
+  overflow-x: hidden; }
+
+.left {
+  left: 0; }
+
+.right {
+  right: 0; }
 
 .reveal ul {
   list-style-type: none; }
