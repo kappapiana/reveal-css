@@ -454,6 +454,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .right {
   right: 0; }
 
+.container {
+  display: flex; }
+
+.col {
+  flex: 1; }
+
 .reveal ul {
   list-style-type: none; }
 

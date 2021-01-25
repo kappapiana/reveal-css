@@ -193,3 +193,9 @@ section.has-dark-background {
 
 .right {
   right: 0; }
+
+// alternative: use flex box
+
+.container { display: flex; }
+
+.col { flex: 1; }
