@@ -144,12 +144,14 @@ section.has-dark-background {
 
 	.fa-green {color: darkgreen;}
 
+	.fa-blue {color: darkblue;}
+
 	.fa-gray, .fa-grey {color: #CCC;	} // US-GB spellings alike
 
-	.fa-strong, .fa-bold {color: $highlight_color; font-weight: bold; }
+	.fa-strong, .fa-bold {color: $highlight_color; font-weight: bold; } // use the accent for bold
 
 	.fa-tone, .fa-accent {
-  color: $highlight_color; }
+  color: $highlight_color; } // use the accent for tone, accent
 
 // Some more stuff for slides and footer
 

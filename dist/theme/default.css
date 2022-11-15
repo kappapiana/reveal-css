@@ -480,6 +480,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: darkgreen;
 }
 
+.fa-blue {
+  color: darkblue;
+}
+
 .fa-gray, .fa-grey {
   color: #CCC;
 }
