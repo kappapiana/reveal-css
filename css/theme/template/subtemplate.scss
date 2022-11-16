@@ -201,3 +201,13 @@ section.has-dark-background {
 .container { display: flex; }
 
 .col { flex: 1; }
+
+// Makes a dropcap
+
+.dropcap p:first-of-type::first-letter {
+  float:  left;
+  	font-size: 10rem;
+  	line-height: 20vw;
+  	padding-right: 15px;
+		color: $highlight_color;
+    }

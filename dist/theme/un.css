@@ -549,6 +549,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   flex: 1;
 }
 
+.dropcap p:first-of-type::first-letter {
+  float: left;
+  font-size: 10rem;
+  line-height: 20vw;
+  padding-right: 15px;
+  color: #5b92e5;
+}
+
 .slide-background {
   background-image: url(../img/until-logo.svg);
   background-size: 10%;
