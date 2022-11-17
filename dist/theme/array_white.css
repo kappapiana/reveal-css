@@ -4,6 +4,7 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../lib/font/open-sans/open-sans.css);
 .slide-background {
   background-image: url(../img/logo_array.png);
 }
