@@ -24,7 +24,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading-color: #5b92e5;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
-  --heading-text-transform: uppercase;
+  --heading-text-transform: none;
   --heading-text-shadow: 1px 2px #474648;
   --heading-font-weight: 600;
   --heading1-text-shadow: 1px 2px #474648;
@@ -84,7 +84,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: none;
   text-shadow: 1px 2px #474648;
   word-wrap: break-word;
 }
@@ -561,7 +561,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: #5b92e5;
 }
 
-.dropcap P {
+.dropcap p {
   margin-top: 1em;
 }
 

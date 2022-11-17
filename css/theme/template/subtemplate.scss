@@ -8,7 +8,7 @@ $headingFont: 'Lora', 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: 1px 2px $mainColor;
 $heading1TextShadow: $headingTextShadow;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
@@ -218,6 +218,6 @@ section.has-dark-background {
   	padding-right: 15px;
 		color: $highlight_color;
     }
-.dropcap P {
+.dropcap p {
 	margin-top: 1em;
 }
