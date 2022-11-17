@@ -4,7 +4,6 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../lib/font/source-sans-pro/source-sans-pro.css);
-@import url(../lib/font/open-sans/open-sans.css);
 .slide-background {
   background-image: url(../img/logo_array.png);
 }
@@ -33,7 +32,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading1-text-shadow: 1px 2px rgb(54, 63, 68);
   --heading1-size: 2em;
   --heading2-size: 1.38em;
-  --heading3-size: 1.4em;
+  --heading3-size: 1.2em;
   --heading4-size: 1em;
   --code-font: monospace;
   --link-color: #da2233;
@@ -101,7 +100,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal h3 {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .reveal h4 {
@@ -562,6 +561,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   line-height: 20vw;
   padding-right: 15px;
   color: #da2233;
+}
+
+.dropcap P {
+  margin-top: 1em;
 }
 
 .reveal ul {
