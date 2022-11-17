@@ -4,6 +4,7 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../lib/font/open-sans/open-sans.css);
 .slide-background {
   background-image: url(../img/logo_array.png);
 }
@@ -22,7 +23,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --main-color: rgb(54, 63, 68);
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: Source Sans Pro, Helvetica, sans-serif;
+  --heading-font: Open Sans, Helvetica, sans-serif;
   --heading-color: #da2233;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
@@ -82,7 +83,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #da2233;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;

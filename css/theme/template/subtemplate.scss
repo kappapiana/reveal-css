@@ -4,7 +4,7 @@ $headingColor: $highlight_color;
 
 $mainFontSize: 37px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Open Sans', Helvetica, sans-serif;
 $headingTextShadow: 1px 2px $mainColor;
 $heading1TextShadow: $headingTextShadow;
 $headingLetterSpacing: normal;
@@ -26,6 +26,8 @@ section.has-dark-background {
 // ---------------------------------------------
 
 // Overrides ------------------------------
+
+@import url(../lib/font/open-sans/open-sans.css);
 
 .reveal .slides {
         text-align: left;
