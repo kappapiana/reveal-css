@@ -4,7 +4,7 @@ $headingColor: $highlight_color;
 
 $mainFontSize: 37px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Lora', 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: 1px 2px $mainColor;
 $heading1TextShadow: $headingTextShadow;
 $headingLetterSpacing: normal;
@@ -26,6 +26,13 @@ section.has-dark-background {
 // ---------------------------------------------
 
 // Overrides ------------------------------
+
+// get font ---------------------------------------------
+@font-face {
+	font-family: "Lora" ;
+	src: url("../lib/lora/Lora-VariableFont_wght.ttf");
+}
+// get font end -----------------------------------------
 
 .reveal .slides {
         text-align: left;
