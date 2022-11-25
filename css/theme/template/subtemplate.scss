@@ -12,6 +12,7 @@ $headingTextTransform: none;
 $headingFontWeight: 600;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
+$footer_color: $headingColor;
 
 
 section.has-dark-background {
@@ -188,7 +189,7 @@ section.has-dark-background {
   margin-right: auto;
   font-family: unset;
   font-style: unset;
-  color: $highlight_color; }
+  color: $footer_color; }
 
 	// column stuff
 
