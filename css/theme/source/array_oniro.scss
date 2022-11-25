@@ -1,0 +1,74 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../lib/font/source-sans-pro/source-sans-pro.css);
+// @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fcfcfc;
+$highlight_color: #332233;
+$linkColor: $highlight_color;
+$mainColor: #3a3a3a;
+$heading1Size: 2em;
+$heading2Size: 1.38em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+
+
+
+
+
+
+// The old white stuff--------------------------
+@import "../template/subtemplate";
+
+.reveal ul {list-style-type: none;}
+
+ul > li:before {
+  content: "‒";
+  position: absolute;
+  margin-left: -1.1em;
+  font-size: 0.8em;
+}
+
+// clear ul for sub-points
+ul ul > li:before {
+  content: ""; /* empty */
+  }
+
+// oniro style headings
+
+h1::before {content: url(../../assets/img/purple_triangle.png) ;
+              margin-right: 0.5em;}
+
+
+h1,  h2 {
+ text-shadow: 1px 1px  #533b8f;
+}
+
+// Provide a logo
+
+.slide-background {
+    background-image: url(../img/logo_array.png),
+        url(../img/lower_oniro.svg);
+
+        background-position:
+          bottom 2% left 4%,
+          bottom 0px center;
+
+        background-size:
+          10.5%,
+          100%;}
