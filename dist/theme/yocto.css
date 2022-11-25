@@ -3,7 +3,6 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(../lib/font/source-sans-pro/source-sans-pro.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fafafa;
 }
@@ -13,7 +12,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 :root {
   --background-color: #fcfcfc;
-  --main-font: Source Sans Pro, Helvetica, sans-serif;
+  --main-font: Lato, Helvetica, sans-serif;
   --main-font-size: 37px;
   --main-color: #3a3a3a;
   --block-margin: 20px;
@@ -43,7 +42,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   font-size: 37px;
   font-weight: normal;
   color: #3a3a3a;
@@ -526,7 +525,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin-right: auto;
   font-family: unset;
   font-style: unset;
-  color: blue;
+  color: inherit;
 }
 
 .left, .right {
@@ -564,7 +563,47 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .slide-background {
-  background-image: url(../img/logo_array.png), url(../img/lower_oniro.svg);
-  background-position: bottom 2% left 4%, bottom 0px center;
-  background-size: 10.5%, 100%;
+  background-image: url(../img/yocto_bottom.svg);
+  background-position: bottom left -1px;
+  background-size: 101%;
+}
+
+.reveal ul {
+  list-style-type: disc;
+  margin-left: 0px;
+}
+
+ul > li:before {
+  content: "";
+  margin-right: 0.5em;
+}
+
+ul > li::marker {
+  color: #0098db;
+}
+
+ul ul > li:before {
+  content: "";
+  margin-right: 0em;
+}
+
+ul ul > li {
+  list-style-type: circle;
+  margin-left: -0.8em;
+}
+
+ul ul > li::marker {
+  color: #3a3a3a;
+}
+
+h1, h2 {
+  text-shadow: 1px 1px #533b8f;
+}
+
+#footer-left {
+  color: rgba(0, 0, 0, 0);
+}
+
+.reveal pre code {
+  max-height: 55%;
 }
