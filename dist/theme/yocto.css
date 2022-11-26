@@ -13,7 +13,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 :root {
   --background-color: #fcfcfc;
   --main-font: Lato, Helvetica, sans-serif;
-  --main-font-size: 37px;
+  --main-font-size: 40px;
   --main-color: #3a3a3a;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
@@ -43,7 +43,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal {
   font-family: "Lato", Helvetica, sans-serif;
-  font-size: 37px;
+  font-size: 40px;
   font-weight: normal;
   color: #3a3a3a;
 }
@@ -578,6 +578,10 @@ ul > li:before {
   margin-right: 0.5em;
 }
 
+ul > li {
+  font-weight: bold;
+}
+
 ul > li::marker {
   color: #0098db;
 }
@@ -590,6 +594,7 @@ ul ul > li:before {
 ul ul > li {
   list-style-type: circle;
   margin-left: -0.8em;
+  font-weight: normal;
 }
 
 ul ul > li::marker {
@@ -606,4 +611,15 @@ h1, h2 {
 
 .reveal pre code {
   max-height: 55%;
+}
+
+.reveal p {
+  font-weight: bold;
+}
+
+.reveal .slide-number {
+  background-color: rgba(0, 0, 0, 0);
+  left: 1.5vw;
+  bottom: 1.2vw;
+  font-size: 1.5vw;
 }

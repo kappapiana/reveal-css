@@ -27,6 +27,9 @@ $heading4Size: 1.0em;
 $headingFont: 'Lato', Helvetica, sans-serif;
 $footer_color: inherit;
 $mainFont: 'Lato', Helvetica, sans-serif;
+// $mainFontSize: 4em;
+
+
 
 @import "../template/subtemplate";
 
@@ -56,6 +59,10 @@ ul > li:before {
   margin-right: 0.5em;
   }
 
+ul > li {
+  font-weight: bold;
+}
+
 ul > li::marker {
   color: $highlight_color;
 }
@@ -69,6 +76,7 @@ ul ul > li:before {
 ul ul > li {
   list-style-type: circle;
   margin-left: -0.8em;
+  font-weight: normal;
 }
 
 ul ul > li::marker {
@@ -84,3 +92,13 @@ h1,  h2 {
 #footer-left {color: rgba(0,0,0,0)}
 
 .reveal pre code {max-height: 55%}
+
+.reveal p {font-weight: bold;}
+
+// remove background, use vw to make it responsive
+
+.reveal .slide-number {
+  background-color: rgba(0,0,0,0);
+  left: 1.5vw;
+  bottom: 1.2vw;
+  font-size: 1.5vw;}
