@@ -625,6 +625,6 @@ h1, h2 {
 .reveal .slide-number {
   background-color: rgba(0, 0, 0, 0);
   left: 1.5vw;
-  bottom: 1.2vw;
+  bottom: 1vw;
   font-size: 1.5vw;
 }
