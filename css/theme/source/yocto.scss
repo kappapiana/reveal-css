@@ -56,11 +56,12 @@ $mainFont: 'Lato', Helvetica, sans-serif;
 // clear ul for sub-points
 ul > li:before {
   content: "";
-  margin-right: 0.5em;
+  // margin-right: 0.5em;
   }
 
-ul > li {
+li {
   font-weight: bold;
+  padding-left: 0.4em;
 }
 
 ul > li::marker {
@@ -82,6 +83,8 @@ ul ul > li {
 ul ul > li::marker {
   color: $mainColor;
 }
+
+ol > li::marker {font-weight: normal; color: $highlight_color; }
 
 // oniro style headings
 

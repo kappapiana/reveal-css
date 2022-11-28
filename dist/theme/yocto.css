@@ -575,11 +575,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 ul > li:before {
   content: "";
-  margin-right: 0.5em;
 }
 
-ul > li {
+li {
   font-weight: bold;
+  padding-left: 0.4em;
 }
 
 ul > li::marker {
@@ -599,6 +599,11 @@ ul ul > li {
 
 ul ul > li::marker {
   color: #3a3a3a;
+}
+
+ol > li::marker {
+  font-weight: normal;
+  color: #0098db;
 }
 
 h1, h2 {
