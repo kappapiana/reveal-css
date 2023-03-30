@@ -18,7 +18,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
   --heading-font: Lato, Helvetica, sans-serif;
-  --heading-color: #05883c;
+  --heading-color: #698f30;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
   --heading-text-transform: none;
@@ -30,9 +30,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading3-size: 1.2em;
   --heading4-size: 1em;
   --code-font: monospace;
-  --link-color: #05883c;
-  --link-color-hover: #08d25d;
-  --selection-background-color: #16f674;
+  --link-color: #698f30;
+  --link-color-hover: #92c249;
+  --selection-background-color: #a9cf70;
   --selection-color: #fff;
 }
 
@@ -50,13 +50,13 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal ::selection {
   color: #fff;
-  background: #16f674;
+  background: #a9cf70;
   text-shadow: none;
 }
 
 .reveal ::-moz-selection {
   color: #fff;
-  background: #16f674;
+  background: #a9cf70;
   text-shadow: none;
 }
 
@@ -76,7 +76,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #05883c;
+  color: #698f30;
   font-family: "Lato", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -288,20 +288,20 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * LINKS
  *********************************************/
 .reveal a {
-  color: #05883c;
+  color: #698f30;
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .reveal a:hover {
-  color: #08d25d;
+  color: #92c249;
   text-shadow: none;
   border: none;
 }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #023e1b;
+  background: #3f561d;
 }
 
 /*********************************************
@@ -317,7 +317,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal a:hover .r-frame {
-  border-color: #05883c;
+  border-color: #698f30;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -325,7 +325,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #05883c;
+  color: #698f30;
 }
 
 /*********************************************
@@ -333,7 +333,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #05883c;
+  color: #698f30;
 }
 
 /*********************************************
@@ -354,7 +354,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal strong {
-  color: #05883c;
+  color: #698f30;
 }
 
 .reveal .smallish {
@@ -463,11 +463,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal .slides section .fragment.highlight-bold.visible {
-  color: #05883c;
+  color: #698f30;
 }
 
 .reveal .slides section .fragment.highlight-current-bold.current-fragment {
-  color: #05883c;
+  color: #698f30;
 }
 
 .fa-red {
@@ -487,12 +487,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .fa-strong, .fa-bold {
-  color: #05883c;
+  color: #698f30;
   font-weight: bold;
 }
 
 .fa-tone, .fa-accent {
-  color: #05883c;
+  color: #698f30;
 }
 
 .reveal .slides section .fragment.highlight-bold {
@@ -501,11 +501,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal .slides section .fragment.highlight-bold.visible {
-  color: #05883c;
+  color: #698f30;
 }
 
 .reveal .slides section .fragment.highlight-current-bold.current-fragment {
-  color: #05883c;
+  color: #698f30;
 }
 
 #footer-left::after {
@@ -555,7 +555,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: 10rem;
   line-height: 20vw;
   padding-right: 15px;
-  color: #05883c;
+  color: #698f30;
 }
 
 .dropcap p {
@@ -583,7 +583,7 @@ ul > li {
 }
 
 ul > li::marker {
-  color: #05883c;
+  color: #698f30;
 }
 
 ul ul > li:before {
