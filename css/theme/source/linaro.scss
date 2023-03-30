@@ -1,0 +1,104 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+$highlight_color: #05883c;
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+// @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fcfcfc;
+$linkColor: $highlight_color;
+$mainColor: #3a3a3a;
+$heading1Size: 2em;
+$heading2Size: 1.38em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+$headingFont: 'Lato', Helvetica, sans-serif;
+$footer_color: inherit;
+$mainFont: 'Lato', Helvetica, sans-serif;
+// $mainFontSize: 4em;
+
+
+
+@import "../template/subtemplate";
+
+
+
+
+// The old white stuff--------------------------
+
+
+
+.slide-background {
+    background-image: url(../img/yocto_bottom.svg);
+
+        background-position:
+          bottom left -1px;
+
+        background-size:
+                  101%;}
+
+
+.reveal ul {list-style-type: disc; margin-left: 0px;}
+
+
+// clear ul for sub-points
+ul > li:before {
+  content: "";
+  margin-right: 0.5em;
+  }
+
+ul > li {
+  font-weight: bold;
+}
+
+ul > li::marker {
+  color: $highlight_color;
+}
+
+ul ul > li:before {
+  content: "";
+  margin-right: 0em;
+    }
+
+
+ul ul > li {
+  list-style-type: circle;
+  margin-left: -0.8em;
+  font-weight: normal;
+}
+
+ul ul > li::marker {
+  color: $mainColor;
+}
+
+// oniro style headings
+
+h1,  h2 {
+ text-shadow: 1px 1px  #533b8f;
+}
+
+#footer-left {color: rgba(0,0,0,0)}
+
+.reveal pre code {max-height: 55%}
+
+.reveal p {font-weight: bold;}
+
+// remove background, use vw to make it responsive
+
+.reveal .slide-number {
+  background-color: rgba(0,0,0,0);
+  left: 1.5vw;
+  bottom: 1vw;
+  font-size: 1.5vw;}
