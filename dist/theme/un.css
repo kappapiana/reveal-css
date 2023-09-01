@@ -25,9 +25,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
   --heading-text-transform: none;
-  --heading-text-shadow: 1px 2px #474648;
+  --heading-text-shadow: none;
   --heading-font-weight: 600;
-  --heading1-text-shadow: 1px 2px #474648;
+  --heading1-text-shadow: none;
   --heading1-size: 2em;
   --heading2-size: 1.38em;
   --heading3-size: 1.4em;
@@ -85,7 +85,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: none;
-  text-shadow: 1px 2px #474648;
+  text-shadow: none;
   word-wrap: break-word;
 }
 
@@ -106,7 +106,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal h1 {
-  text-shadow: 1px 2px #474648;
+  text-shadow: none;
 }
 
 /*********************************************
@@ -483,6 +483,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .fa-blue {
   color: darkblue;
+}
+
+.fa-yellown {
+  color: yellow;
 }
 
 .fa-gray, .fa-grey {
