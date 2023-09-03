@@ -498,6 +498,18 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: orchid;
 }
 
+.fa-light-blue {
+  color: #27acf8;
+}
+
+.fa-fluo-gren {
+  color: mediumspringgreen;
+}
+
+.fa-aqua {
+  color: aquamarine;
+}
+
 .fa-gray, .fa-grey {
   color: #CCC;
 }
