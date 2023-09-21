@@ -229,3 +229,12 @@ section.has-dark-background {
 .dropcap p {
 	margin-top: 1em;
 }
+
+// this is made for future reference to change the appearance of the box:
+
+.bigbox {
+	clear: both;
+	border-top: 1px solid gray; 
+	border-radius: 10px; display: block; 
+	padding: 0.3em 0.3em 0.1em 0.3em
+}
