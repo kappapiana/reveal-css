@@ -12,7 +12,11 @@
 
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,400&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,400');
+@font-face {
+  font-family: "Fjalla One";
+  src: url(../lib/fjalla/FjallaOne-Regular.ttf);
+}
 
 
 // Override theme settings (see ../template/settings.scss)

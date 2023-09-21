@@ -4,6 +4,10 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../lib/source-sans-pro/source-sans-pro.css);
+@font-face {
+  font-family: "Fjalla One";
+  src: url(../lib/fjalla/FjallaOne-Regular.ttf);
+}
 .slide-background {
   background-image: url(../img/logo_array.png);
 }
@@ -22,7 +26,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --main-color: rgb(54, 63, 68);
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: League Gothic, Impact, sans-serif;
+  --heading-font: Fjalla One;
   --heading-color: #da2233;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
@@ -82,7 +86,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #da2233;
-  font-family: "League Gothic", Impact, sans-serif;
+  font-family: "Fjalla One";
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -593,6 +597,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .dropcap p {
   margin-top: 1em;
+}
+
+.bigbox {
+  clear: both;
+  border-top: 1px solid gray;
+  border-radius: 10px;
+  display: block;
+  padding: 0.3em 0.3em 0.1em 0.3em;
 }
 
 .reveal ul {

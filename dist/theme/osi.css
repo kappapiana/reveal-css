@@ -4,7 +4,11 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,400&family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,400");
+@font-face {
+  font-family: "Fjalla One";
+  src: url(../lib/fjalla/FjallaOne-Regular.ttf);
+}
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222;
 }
@@ -594,6 +598,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .dropcap p {
   margin-top: 1em;
+}
+
+.bigbox {
+  clear: both;
+  border-top: 1px solid gray;
+  border-radius: 10px;
+  display: block;
+  padding: 0.3em 0.3em 0.1em 0.3em;
 }
 
 .reveal ul {

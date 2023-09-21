@@ -14,6 +14,10 @@
 // Include theme-specific fonts
 @import url(../lib/source-sans-pro/source-sans-pro.css);
 
+@font-face {
+  font-family: "Fjalla One";
+  src: url(../lib/fjalla/FjallaOne-Regular.ttf);
+}
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #242222;
@@ -24,7 +28,7 @@ $headingColor: $highlight_color;
 
 // $mainFontSize: 42px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Fjalla One', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;

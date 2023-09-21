@@ -13,9 +13,14 @@
 
 // Include theme-specific fonts
 @import url(../lib/source-sans-pro/source-sans-pro.css);
+
+@font-face {
+  font-family: "Fjalla One";
+  src: url(../lib/fjalla/FjallaOne-Regular.ttf);
+}
+
 // @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 // @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
-
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fcfcfc;
@@ -27,6 +32,7 @@ $heading1Size: 2em;
 $heading2Size: 1.38em;
 $heading3Size: 1.2em;
 $heading4Size: 1.0em;
+$headingFont: "Fjalla One";
 
 
 $headingTextShadow: 1px 2px $mainColor;
