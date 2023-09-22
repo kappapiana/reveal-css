@@ -52,21 +52,23 @@ $heading4Size: 1.0em;
 
 $headingTextShadow: black;
 
+img {background-color: #fcfcfc;}
+
 
 // The old white stuff--------------------------
 @import "../template/subtemplate";
 
-.reveal ul {list-style-type: none;}
+// .reveal ul {list-style-type: none;}
 
-ul > li:before {
-  content: "●";
-  position: absolute;
-  margin-left: -1.1em;
-	color: $highlight_color;
-  font-size: 0.7em;
-}
+// ul > li:before {
+//   content: "●";
+//   position: absolute;
+//   margin-left: -1.1em;
+// 	color: $highlight_color;
+//   font-size: 0.7em;
+// }
 
-// clear ul for sub-points
-ul ul > li:before {
-  content: ""; /* empty */
-  }
+// // clear ul for sub-points
+// ul ul > li:before {
+//   content: ""; /* empty */
+//   }

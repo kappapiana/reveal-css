@@ -32,7 +32,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading-letter-spacing: normal;
   --heading-text-transform: none;
   --heading-text-shadow: 1px 2px rgb(54, 63, 68);
-  --heading-font-weight: normal;
+  --heading-font-weight: 400;
   --heading1-text-shadow: 1px 2px rgb(54, 63, 68);
   --heading1-size: 2em;
   --heading2-size: 1.38em;
@@ -87,7 +87,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin: 0 0 20px 0;
   color: #da2233;
   font-family: "Fjalla One";
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: none;
@@ -405,7 +405,6 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin-right: auto;
   max-width: 60%;
   max-height: 550px;
-  background: none !important;
   /* box-shadow: none !important; */
   border: 0px;
   position: relative;
@@ -450,7 +449,6 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   min-height: 60%;
   max-width: 95%;
   max-height: 95%;
-  background: none;
   box-shadow: none;
   border: 0px;
 }
