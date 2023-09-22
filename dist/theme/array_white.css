@@ -32,7 +32,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --heading-letter-spacing: normal;
   --heading-text-transform: none;
   --heading-text-shadow: 1px 2px rgb(54, 63, 68);
-  --heading-font-weight: 600;
+  --heading-font-weight: normal;
   --heading1-text-shadow: 1px 2px rgb(54, 63, 68);
   --heading1-size: 2em;
   --heading2-size: 1.38em;
@@ -87,7 +87,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin: 0 0 20px 0;
   color: #da2233;
   font-family: "Fjalla One";
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: none;

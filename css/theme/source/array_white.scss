@@ -5,6 +5,7 @@
  */
 
 
+
 // Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
@@ -33,6 +34,7 @@ $heading2Size: 1.38em;
 $heading3Size: 1.2em;
 $heading4Size: 1.0em;
 $headingFont: "Fjalla One";
+$headingFontWeight: 400;
 
 
 $headingTextShadow: 1px 2px $mainColor;
@@ -59,3 +61,4 @@ ul > li:before {
 ul ul > li:before {
   content: ""; /* empty */
   }
+  
