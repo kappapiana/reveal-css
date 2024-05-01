@@ -23,7 +23,7 @@ $highlight_color: #332233;
 $headingColor: $highlight_color;
 $linkColor: $highlight_color;
 $mainColor: #3a3a3a;
-$heading1Size: 2em;
+$heading1Size: 2.1em;
 $heading2Size: 1.38em;
 $heading3Size: 1.2em;
 $heading4Size: 1.0em;
@@ -33,7 +33,7 @@ $heading4Size: 1.0em;
 
 
 
-// The old white stuff--------------------------
+// The old white stuff-------------------------- test
 @import "../template/subtemplate";
 
 .reveal ul {list-style-type: none;}
@@ -53,7 +53,7 @@ ul ul > li:before {
 // oniro style headings
 
 h1::before {content: url(../../assets/img/purple_triangle.png) ;
-              margin-right: 0.5em;}
+              margin-right: 0em;}
 
 
 h1,  h2 {
