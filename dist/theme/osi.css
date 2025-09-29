@@ -4,7 +4,10 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,400");
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url(../lib/barlow/BarlowSemiCondensed-Regular.ttf);
+}
 @font-face {
   font-family: "Fjalla One";
   src: url(../lib/fjalla/FjallaOne-Regular.ttf);
@@ -354,10 +357,6 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     background-color: #fcfcfc;
   }
 }
-@font-face {
-  font-family: "Lora";
-  src: url("../lib/lora/Lora-VariableFont_wght.ttf");
-}
 .reveal .slides {
   text-align: left;
   line-height: 1.15em;
@@ -606,14 +605,19 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   padding: 0.3em 0.3em 0.1em 0.3em;
 }
 
+.reveal a:hover {
+  filter: brightness(80%);
+}
+
 .reveal ul {
   list-style-type: none;
 }
 
 ul > li:before {
-  content: "●";
+  content: "‒";
   position: absolute;
   margin-left: -1.1em;
+  margin-top: 0.3em;
   font-size: 0.7em;
 }
 

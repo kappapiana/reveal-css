@@ -350,10 +350,6 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     background-color: #fcfcfc;
   }
 }
-@font-face {
-  font-family: "Lora";
-  src: url("../lib/lora/Lora-VariableFont_wght.ttf");
-}
 .reveal .slides {
   text-align: left;
   line-height: 1.15em;
@@ -600,6 +596,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   border-radius: 10px;
   display: block;
   padding: 0.3em 0.3em 0.1em 0.3em;
+}
+
+.reveal a:hover {
+  filter: brightness(80%);
 }
 
 .reveal ul {

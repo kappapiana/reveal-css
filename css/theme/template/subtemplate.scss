@@ -24,10 +24,10 @@ section.has-dark-background {
 // Overrides ------------------------------
 
 // get font ---------------------------------------------
-@font-face {
-	font-family: "Lora" ;
-	src: url("../lib/lora/Lora-VariableFont_wght.ttf");
-}
+// @font-face {
+// 	font-family: "Lora" ;
+// 	src: url("../lib/lora/Lora-VariableFont_wght.ttf");
+// }
 
 // get font end -----------------------------------------
 
@@ -238,3 +238,6 @@ section.has-dark-background {
 	border-radius: 10px; display: block; 
 	padding: 0.3em 0.3em 0.1em 0.3em
 }
+
+
+.reveal a:hover {filter: brightness(80%);}
