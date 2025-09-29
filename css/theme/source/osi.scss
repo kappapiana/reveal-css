@@ -12,7 +12,11 @@
 
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,400');
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url(../lib/barlow/BarlowSemiCondensed-Regular.ttf);
+}
+
 @font-face {
   font-family: "Fjalla One";
   src: url(../lib/fjalla/FjallaOne-Regular.ttf);
@@ -56,13 +60,15 @@ $headingTextShadow: black;
 // The old white stuff--------------------------
 @import "../template/subtemplate";
 
+// points in unordered lists
+
 .reveal ul {list-style-type: none;}
 
 ul > li:before {
-  content: "●";
+  content: "‒";
   position: absolute;
   margin-left: -1.1em;
-	// color: $highlight_color;
+  margin-top: 0.3em;
   font-size: 0.7em;
 }
 
