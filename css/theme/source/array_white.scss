@@ -36,6 +36,7 @@ $heading4Size: 1.0em;
 $headingFont: "Fjalla One";
 $headingFontWeight: 400;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFontSize: 2.3em;
 
 
 $headingTextShadow: 1px 2px $mainColor;
@@ -47,19 +48,3 @@ $heading1TextShadow: $headingTextShadow;
 
 // The old white stuff--------------------------
 @import "../template/subtemplate";
-
-.reveal ul {list-style-type: none;}
-
-.reveal ul > li:before {
-  content: "-";
-  position: absolute;
-  margin-left: -1.1em;
-	color: $highlight_color;
-  font-size: 0.7em;
-}
-
-// clear ul for sub-points
-.reveal ul ul > li:before {
-  content: ""; /* empty */
-  }
-  
