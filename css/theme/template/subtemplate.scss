@@ -241,3 +241,27 @@ section.has-dark-background {
 
 
 .reveal a:hover {filter: brightness(80%);}
+.highlight {
+	background-color: #ffeb3b;
+	color: rgb(43, 47, 53);
+	padding: 0.2em 0.4em;
+	border-radius: 13px;
+  }
+  
+  .container[class*='cols-'] {
+	display: flex;
+	gap: 1em;
+  }
+  
+  .container[class*='cols-'] .col {
+	flex: 1;
+  }
+  
+  blockquote footer {
+	text-align: right;
+	font-style: italic;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	color: #888;
+  }
