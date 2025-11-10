@@ -265,3 +265,10 @@ section.has-dark-background {
 	margin-right: 0.5em;
 	color: #888;
   }
+
+ .longSlide h1 {font-size: $heading1Size * 0.8; }
+ .longSlide	h2 {font-size: $heading2Size * 0.8; }
+ .longSlide	h3 {font-size: $heading3Size * 0.8; }
+ .longSlide	h4 {font-size: $heading4Size * 0.8; }
+
+ .longSlide p, .longSlide li {font-size: $mainFontSize * 0.8; }
