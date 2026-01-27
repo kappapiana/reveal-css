@@ -1,9 +1,6 @@
 /**
- * BASED ON:
- * White theme for reveal.js. This is the opposite of the 'black' theme.
- * By Hakim El Hattab, http://hakim.se
- *
- * AND on the new_white theme (Array theme)
+ * UN theme for reveal.js
+ * Based on the default white and Array "new_white" themes.
  */
 
 
@@ -44,9 +41,9 @@ $linkColor: $highlight_color;
 
 // ---------------------------------------------
 // Provide a logo
-.slide-background {background-image: url(../img/until-logo.svg);
+.reveal .slide-background {
+  background-image: url(../img/until-logo.svg);
   background-size: 10%;
   background-repeat: no-repeat;
-
 }
 // ---------------------------------------------

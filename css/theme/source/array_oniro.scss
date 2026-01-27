@@ -33,12 +33,12 @@ $heading4Size: 1.0em;
 
 
 
-// The old white stuff-------------------------- test
+// The old white stuff--------------------------
 @import "../template/subtemplate";
 
 .reveal ul {list-style-type: none;}
 
-ul > li:before {
+.reveal ul > li:before {
   content: "‒";
   position: absolute;
   margin-left: -1.1em;
@@ -46,23 +46,23 @@ ul > li:before {
 }
 
 // clear ul for sub-points
-ul ul > li:before {
+.reveal ul ul > li:before {
   content: ""; /* empty */
   }
 
 // oniro style headings
 
-h1::before {content: url(../../assets/img/purple_triangle.png) ;
+.reveal h1::before {content: url(../../assets/img/purple_triangle.png) ;
               margin-right: 0em;}
 
 
-h1,  h2 {
+.reveal h1,  .reveal h2 {
  text-shadow: 1px 1px  #533b8f;
 }
 
 // Provide a logo
 
-.slide-background {
+.reveal .slide-background {
     background-image: url(../img/logo_array.png),
         url(../img/lower_oniro.svg);
 

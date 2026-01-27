@@ -40,6 +40,12 @@ section.has-dark-background {
 
 .reveal .smallish {font-size: 0.8em;}
 
+// Code block wrapper: slightly smaller font, wider box
+.reveal pre {
+  width: 99%;
+  font-size: 0.5em; // default is 0.55em in base theme
+}
+
 .slide-background {
 // .slide-background {background-image: $logo_image;
   background-size:

@@ -41,7 +41,7 @@ $mainFont: 'Lato', Helvetica, sans-serif;
 
 
 
-.slide-background {
+.reveal .slide-background {
     background-image: url(../img/yocto_bottom.svg);
 
         background-position:
@@ -55,7 +55,7 @@ $mainFont: 'Lato', Helvetica, sans-serif;
 
 
 // clear ul for sub-points
-ul > li:before {
+.reveal ul > li:before {
   content: "";
   margin-right: 0em;
   }
@@ -68,25 +68,25 @@ ul > li::marker {
   color: $highlight_color;
 }
 
-ul ul > li:before {
+.reveal ul ul > li:before {
   content: "";
   margin-right: 0em;
     }
 
 
-ul ul > li {
+.reveal ul ul > li {
   list-style-type: circle;
   margin-left: -0.8em;
   font-weight: normal;
 }
 
-ul ul > li::marker {
+.reveal ul ul > li::marker {
   color: $mainColor;
 }
 
 // oniro style headings
 
-h1,  h2 {
+.reveal h1,  .reveal h2 {
  text-shadow: 1px 1px  #533b8f;
 }
 

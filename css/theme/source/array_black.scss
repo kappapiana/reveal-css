@@ -46,13 +46,13 @@ $heading4Size: 1.0em;
 @include light-bg-text-color(#222);
 
 // Provide a logo
-.slide-background {background-image: url(../img/logo_array.png);}
+.reveal .slide-background {background-image: url(../img/logo_array.png);}
 
 //   override highlight
 
 $headingTextShadow: black;
 
-img {background-color: #fcfcfc;}
+.reveal img {background-color: #fcfcfc;}
 
 
 // The old white stuff--------------------------

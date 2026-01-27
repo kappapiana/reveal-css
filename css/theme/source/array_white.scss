@@ -42,7 +42,7 @@ $headingTextShadow: 1px 2px $mainColor;
 $heading1TextShadow: $headingTextShadow;
 
 // Provide a logo
-.slide-background {background-image: url(../img/logo_array.png);}
+.reveal .slide-background {background-image: url(../img/logo_array.png);}
 
 
 // The old white stuff--------------------------
@@ -50,7 +50,7 @@ $heading1TextShadow: $headingTextShadow;
 
 .reveal ul {list-style-type: none;}
 
-ul > li:before {
+.reveal ul > li:before {
   content: "-";
   position: absolute;
   margin-left: -1.1em;
@@ -59,7 +59,7 @@ ul > li:before {
 }
 
 // clear ul for sub-points
-ul ul > li:before {
+.reveal ul ul > li:before {
   content: ""; /* empty */
   }
   
