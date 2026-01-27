@@ -1,52 +1,42 @@
 /**
- * BASED ON:
- * White theme for reveal.js. This is the opposite of the 'black' theme.
- * By Hakim El Hattab, http://hakim.se
- *
- * AND on the new_white theme (Array theme)
+ * Copernicani theme for reveal.js
+ * Based on the default white and Array "new_white" themes.
  */
-
 
 // Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
-// ---------------------------------------------
-
+// --------------------------------------------
 
 // Include theme-specific fonts
 @import url(../lib/source-sans-pro/source-sans-pro.css);
 // @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 // @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 
-
-// Override theme settings (see ../template/settings.scss)
+// Theme settings overrides (see ../template/settings.scss)
 $backgroundColor: #f8f8f6;
 $highlight_color: #0FBE7C;
 $linkColor: $highlight_color;
 $headingColor: $highlight_color;
 $mainColor: #474648;
+
 $heading1Size: 2em;
 $heading2Size: 1.38em;
 $heading3Size: 1.2em;
 $heading4Size: 1.0em;
 
-
-// The old white stuff--------------------------
-// now in a subtemplate, so we can have local
-// changes
+// Base white theme structure & components
 @import "../template/subtemplate";
-// ---------------------------------------------
 
+// Theme-specific overrides
 
-// ***** everything underneath overrides -------
-// the template --------------------------------
+// Ensure good contrast on light backgrounds (optional but recommended)
+// @include light-bg-text-color($mainColor);
 
-// ---------------------------------------------
-// Provide a logo
-.slide-background {background-image: url(../img/copernicani.png);
+// Logo in slide background, scoped to Reveal
+.reveal .slide-background {
+  background-image: url(../img/copernicani.png);
   background-size: 18%;
   background-repeat: no-repeat;
   background-position: top 3px right 2%;
-
 }
-// ---------------------------------------------

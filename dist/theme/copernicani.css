@@ -1,9 +1,6 @@
 /**
- * BASED ON:
- * White theme for reveal.js. This is the opposite of the 'black' theme.
- * By Hakim El Hattab, http://hakim.se
- *
- * AND on the new_white theme (Array theme)
+ * Copernicani theme for reveal.js
+ * Based on the default white and Array "new_white" themes.
  */
 @import url(../lib/source-sans-pro/source-sans-pro.css);
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
@@ -644,7 +641,7 @@ blockquote footer {
   font-size: 32px;
 }
 
-.slide-background {
+.reveal .slide-background {
   background-image: url(../img/copernicani.png);
   background-size: 18%;
   background-repeat: no-repeat;
