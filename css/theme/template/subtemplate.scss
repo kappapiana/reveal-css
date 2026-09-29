@@ -277,7 +277,8 @@ section.has-dark-background {
  .longSlide	h3 {font-size: $heading3Size * 0.8; }
  .longSlide	h4 {font-size: $heading4Size * 0.8; }
 
- .longSlide p, .longSlide li {font-size: $mainFontSize * 0.8; }
+ .longSlide p, .longSlide li {font-size: 0.8em; }
+ .longSlide table th, .longSlide table td {font-size: 0.8em; }
 
 // better dashed bullet list
 
